@@ -8,7 +8,7 @@ body {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
     height: 100%;
-    background: url(southafrica2.JPG); 
+    background: url(southafrica2.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -23,7 +23,7 @@ body {
     margin: 0;
     font-family: 'Open Sans', sans-serif;    
     height: 100%;    
-    background: url(southafrica2.JPG);       
+    background: url(southafrica2.jpg);       
     background-size: cover;
     background-attachment: fixed;
     }
@@ -46,6 +46,7 @@ body {
 
 .main {
     color:  #f5dcda;
+    padding: 40px;
     
 }
 
@@ -53,6 +54,7 @@ body {
     height: 45px;
     font-size: 20px;
     text-align: right;
+    padding-right: 20px;
     
 }
 
@@ -60,10 +62,16 @@ body {
     display: inline-block;
     padding: 10px;
     text-decoration: none;
-    color: #70c1b3;
+    color: #5de0ca;
     font-family: 'Roboto', sans-serif;
     font-size: 25px;
-    
+}
+
+.vertLine {
+    display: inline-block;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: #f5dcda;
 }
 
 .topnav a:hover {
@@ -72,13 +80,15 @@ body {
 
 .initials {
     display: inline-block;
-    color: #70c1b3;
+    color: #5de0ca;
     position: relative;
     bottom: 40px;
-    left: 10px;
+    left: 25px;
     font-size: 45px;
     text-decoration: none;
 }
+    
+
 
 .loves {
     top: 10px;
@@ -89,7 +99,6 @@ body {
     font-size: 25px;
     color: #f5dcda;
     font-family: 'Roboto', sans-serif;
-    
 }
 
 
@@ -99,9 +108,10 @@ body {
     font-size: 50px;
     bottom: 45px;
     text-align: center;
+    padding: 40px; 
     font-size: 25px;  
     color: #f5dcda;
-    margin: auto;
+    
 }
 
 /*links to icons */
@@ -155,6 +165,7 @@ footer {
     position: relative;
     text-align: center;
     color: #f5dcda;
+    bottom: 50px;
 }
 
 .description {
@@ -168,10 +179,13 @@ footer {
 }
 
 #projects a {
+    position: relative;
     text-decoration: none;
     color: #f5dcda;
-    font-size: 30px;
+    font-size: 1.5em;
+    font-weight: 600;
     padding-right: 10px;
+    bottom: 20px;
 
 }
 
