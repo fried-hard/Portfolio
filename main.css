@@ -8,7 +8,7 @@ body {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
     height: 100%;
-    background: url(southafrica2.jpg);
+    background: url(southafrica2.JPG);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -23,7 +23,7 @@ body {
     margin: 0;
     font-family: 'Open Sans', sans-serif;    
     height: 100%;    
-    background: url(southafrica2.jpg);       
+    background: url(southafrica2.JPG);       
     background-size: cover;
     background-attachment: fixed;
     }
@@ -75,7 +75,7 @@ body {
 }
 
 .topnav a:hover {
-    font-weight: 800;
+    color: #f5dcda;
 }
 
 .initials {
@@ -86,6 +86,10 @@ body {
     left: 25px;
     font-size: 45px;
     text-decoration: none;
+}
+
+.initials:hover {
+    color: #f5dcda;
 }
     
 
@@ -191,7 +195,7 @@ footer {
 
 #projects a:hover {
     font-weight: 800;
-    color: #70c1b3;
+    color: #5de0ca;
 }
 
 
